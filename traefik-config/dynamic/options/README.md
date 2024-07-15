@@ -16,3 +16,7 @@ http:
       tls:
         options: modern # modern | default | legacy
 ```
+Note:
+As you will only need to specify `modern` or `legacy` for the other options,
+the `default` will be used when nothing is specified. Alternativly you can
+specify `default`, but not needed.
