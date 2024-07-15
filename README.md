@@ -7,10 +7,10 @@ Here will all configuration files for different software be located. This can be
 /Configurations/<PROGRAM>/<VERSION>/
 ```
 
-### <PROGRAM>
+### `<PROGRAM>`
 This represents the name of the program.
 
-### <VERSION>
+### `<VERSION>`
 This represents the version of the program that i will leave so that you know what version is used for a working example. This will lower failiures when there becomes a new version available that can break things. If possible I will link to migration documentation of each program.
 
 ## Container Engine
@@ -19,5 +19,5 @@ Here is the program configuration/start file for the engine you use to run a pro
 /Container-Engine/<Engine Type>/
 ```
 
-### <Engine Type>
+### `<Engine Type>`
 Type of engine can be containers like Docker, Docker Compose, Helm, K3S, LXC. This will allow you to use what you want and have the configuration be applicable regardless of what you use.
